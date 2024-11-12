@@ -1,6 +1,7 @@
 import * as THREE from "three";
 
 export default function satalite(){
+    console.log("Hello from satalite.js");
     const data = [
         [35.3399, -116.875, 0.951499],
         [-35.3985, 148.982, 0.69202],

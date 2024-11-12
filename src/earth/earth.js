@@ -4,6 +4,7 @@ import nightTimeEarth from "./nightTimeEarth.js";
 import atmosphericGlow from "./atmosphereGlow.js";
 
 export default function earth(earthRadius, lightDirection, camera){
+    console.log("Hello from earth.js");
     const dayTimeTexture = '/assets/dayTimeEarth.jpg';
     const nightTimeTexture = '/assets/nightTimeEarth.jpg';
     const earthGrouping = new THREE.Group();

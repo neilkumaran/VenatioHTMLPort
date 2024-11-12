@@ -1,6 +1,7 @@
 import * as THREE from "three";
 
 export default function nightTimeEarth(geometry, dayTimeTexture, nightTimeTexture, camera, lightDirection) {
+    console.log("Hello from nightTimeEarth.js");
     const dayTexture = new THREE.TextureLoader().load(dayTimeTexture);
     const nightTexture = new THREE.TextureLoader().load(nightTimeTexture);
     const earthLightDirection = lightDirection.clone().applyQuaternion(camera.quaternion.clone().invert()).normalize();

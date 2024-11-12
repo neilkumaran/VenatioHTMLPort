@@ -2,6 +2,7 @@ import * as THREE from "three";
 
 //destructured so numStars can be passed if no values is given
 export default function starBackground({starNums = 500} = {}){
+    console.log("Hello from starBackground.js");
 
     const CirclePng = "./assets/circle.png";
 

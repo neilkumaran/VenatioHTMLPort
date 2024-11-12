@@ -1,6 +1,7 @@
 import * as THREE from "three";
 
 export default function clouds(geometry){
+    console.log("Hello from clouds.js");
     const cloudsMat = new THREE.MeshStandardMaterial({
         //add the texture (Loader.load did NOT work)
         map: new THREE.TextureLoader().load("/assets/clouds.jpg"),

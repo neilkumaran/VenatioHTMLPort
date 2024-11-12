@@ -7,14 +7,16 @@
 // - The textures will still remain in assets though, maybe we can use it one day.
 // 11/3/24 - WEBSITE LOADS ON 4GB IMAC!!!! IS THIS A WEBKIT ISSUE OR A IPHONE ISSUE???? GET RYAN ON HERE!!!!
 
-import * as THREE from '../node_modules/three/build/three.module.js';
-import { OrbitControls } from '../libs/OrbitControls.js';
+import * as THREE from './libs/three.module.js';
+import { OrbitControls } from './libs/OrbitControls.js';
 import starBackground from "./src/starBackground.js";
 import flightPathClass from "./data/flightpathdata.js";
 import satellite from "./src/satellite.js";
 import earth from "./src/earth/earth.js";
 import moon from "./src/moon.js";
 import createRocket from "./src/createRocket.js";
+
+console.log("Hello from main.js")
 
 let rocketSpeedMultiplier = 1;
 

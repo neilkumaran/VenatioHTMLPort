@@ -1,4 +1,4 @@
-import * as THREE from '../node_modules/three/build/three.module.js';
+import * as THREE from '/libs/three.module.js';
 
 export default function flightPathClass() {
 	

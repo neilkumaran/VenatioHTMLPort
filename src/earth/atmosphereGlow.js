@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 
 export default function atmosphericGlow({rimHex=0x57a5ff,  faceHex=0x000000} = {}){
+    console.log("Hello from atmosphereGlow.js");
     const uniforms = {
         rimColor: {value: new THREE.Color(rimHex)},
         faceColor: {value: new THREE.Color(faceHex)},
